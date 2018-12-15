@@ -670,10 +670,16 @@ main {
   color: #7beec7;
   background-color: transparent;
 }
-.ba-search-form--blog button:hover {
+
+/*.ba-search-form--blog button:hover {
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
+}*/
+
+.form-control .blog-search-button {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .ba-search-form--blog input,
@@ -829,7 +835,7 @@ main {
   padding-top: 30px;
 }
 
-.form-control {
+.main-contact .form-control {
   display: block;
   width: 100%;
   height: 50px;
@@ -1228,7 +1234,7 @@ label {
   margin: 0;
   margin-top: 25px;
   text-align: right;
-  margin-right: -20px;
+  /*margin-right: -20px;*/
 }
 
 .ba-social__icon {
@@ -1244,6 +1250,10 @@ label {
 .ba-social li {
   display: inline-block;
   margin-right: 20px;
+}
+
+.ba-social li:last-child {
+  margin-right: 0px;
 }
 
 @media (max-width: 992px) {
