@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contacts - AKAD</title>
-	<meta name="description" content="Contacts - AKAD. Creative Agency"/>
-	<meta name="keywords" content="creative, agency, contacts, AKAD"/>
+	<title>Contacts - VK</title>
+	<meta name="description" content="Contacts - VK. Velychko Khrystyna"/>
+	<meta name="keywords" content="developer, contacts, VK"/>
 	<link rel="icon" href="favicon.png"/>
 	<link rel="stylesheet" href="css/slick.css"> <!-- slider -->
 	<link rel="stylesheet" href="css/slick-theme.css"> <!-- slider -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<!--<link rel="stylesheet" href="css/normalize.css"/>-->
 	<!--<link rel="stylesheet" href="css/layout.css"/>-->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,13 +22,24 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="ba-intro ba-intro--home" style="background-image: url(img/bg.jpg);">
+
+	<!-- Floating Social Buttons -->    
+	<div id="float-social">
+	    <ul>
+	        <li><a href="https://www.linkedin.com/in/khrystyna-parkhuts-3182a480/" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+	        <li><a href="https://github.com/XpucTiHu" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a></li>
+	        <li><a href="https://www.facebook.com/xpuctihu" target="_blank" title="Follow me on Facebook"><i class="fab fa-facebook"></i></a></li>
+	        <li><a href="https://www.upwork.com/o/profiles/users/_~01d232844d0b188820/" target="_blank" class="upwork" title="Hire me on Upwork">U</a></li>
+	    </ul>
+	</div>
+
+	<div class="ba-intro ba-intro--contacts" style="background-image: url(img/binary-code-background.jpg);">
 
 		<nav class="navbar navbar-expand-lg ba-top-navbar fixed-top">
 			<div class="container">
 				
 				<a class="navbar-brand" href="index.html">
-					<img src="img/logo.png" alt="AKAD">
+					<img src="img/logo.png" alt="VK">
 				</a>
 				<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"><img src="img/menu.png" alt="menu"></span>
@@ -36,137 +48,91 @@
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0 ba-main-menu">
 						<li class="nav-item">
-							<a href="index.html" class="nav-link col-sm-12 text-center">Home</a>
+							<a href="index.html" class="nav-link col-sm-12 text-center scroll">Home</a>
 						</li>
 						<li class="nav-item">
-							<a href="about.html" class="nav-link col-sm-12 text-center">About Us</a>
+							<a href="resume.html" class="nav-link col-sm-12 text-center scroll">My Resume</a>
 						</li>
 						<li class="nav-item">
-							<a href="services.html" class="nav-link col-sm-12 text-center">Services</a>
+							<a href="skills.html" class="nav-link col-sm-12 text-center scroll">Skills</a>
 						</li>
 						<li class="nav-item">
-							<a href="blog.html" class="nav-link col-sm-12 text-center">Blog</a>
+							<a href="blog.html" class="nav-link col-sm-12 text-center scroll">Blog</a>
 						</li>
 						<li class="nav-item active">
-							<a href="contacts.html" class="nav-link col-sm-12 text-center">Contact Us<span class="sr-only">(current)</span></a>
+							<a href="contacts.html" class="nav-link col-sm-12 text-center scroll">Contact<span class="sr-only">(current)</span></a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 
-		<div class="container">
+		<div class="container ba-intro__body--contact">
       		<div class="ba-intro__body text-center">
-      			<h1 class="ba-page-title">Contacts Us</h1>
+      			<h1 class="ba-page-title">Contacts</h1>
         		<!-- <p class="ba-intro__subtitle">home / blog</p> -->
         		<ol class="breadcrumb text-center">
           			<li><a href="index.html">HOME</a></li>
           			<li class="active">contact</li>
         		</ol>
+        		<a href="#idcontact" data-scroll class="down-arrow scroll"><i class="fas fa-arrow-circle-down"></i></a>
       		</div>
       	</div>
 		
 	</div>
 
-	<main role="main" class="main-contact">
+	<main role="main" class="main-contact" id="main-contact">
 
-		<section class="ba-section">
-			<div class="container">
-				<div class="row">
+		<section class="contact" id="idcontact">
+	        <div class="contact__map"></div>
+	        <div class="contact__bg"></div>
 
-		          	<div class="col-md-6">
+	        <div class="contact__title">
+	            <img src="img/getInTouch.png" alt="Map icon">
+	            <h2>GET IN TOUCH</h2>
+	        </div>
 
-		            	<div class="form">
-		              		<form action="#" method="POST">
-		              			<div class="form-row">
-			                		<div class="form-group col-md-6 form-control--name">
-			                  			<input type="text" class="form-control" placeholder="Your Name" required>
-			                		</div>                
-			                		<div class="form-group col-md-6 form-control--email">
-			                    		<input type="email" class="form-control" placeholder="Your Email" required>
-			                		</div>
-		                		</div>
-		                		<div class="form-row">		              
-			                		<div class="form-group col-md-12">
-			                    		<input type="text" class="form-control" placeholder="Object" required>
-			                		</div>
-		                		</div>
-		                		<div class="form-row">		                
-			                		<div class="form-group col-md-12">
-			                    		<textarea class="form-control ba-contact-textarea" rows="6" placeholder="Message" required></textarea>
-			                		</div>
-		                		</div>
-		                		<div class="form-row">
-			                		<div class="form-group col-md-12">
-			                  			<button type="submit" class="btn btn-primary">Send</button>
-			                		</div>
-			                	</div>
-		              		</form>
-		            	</div>
-		            
-		            	<div class="ba-contact">
-		              		<h4 class="ba-title">Contact info</h4>
-		              		<p>Lorem ipsum dolor sit amet, conse adipisicing elit. Libero incidunt quod ab mollitia quia dolorum conse.</p>
-		              		<address>
-		                		<p>13D, Functional apartment, Unique colony,</p>
-		                		<p>Agadir 86360</p>
-		                		<p>
-		                  			<a class="ba-contact__link ba-contact__link--phone" href="tel:+212124566780">+212 124-566-780 </a>
-		                		</p>
-		                		<p>
-		                  			<a class="ba-contact__link ba-contact__link--phone" href="tel:+212124566780">+212 124-566-780 </a>
-		                		</p>
-		                		<p>
-		                  			<a class="ba-contact__link ba-contact__link--mail" href="mailto:email@website.com">email@website.com</a>
-		                		</p>
-		              		</address>
-		              		<ul class="ba-contact-socials">
-		                		<li>
-		                  			<a href="https://www.facebook.com/"><i class="ion-social-facebook"></i></a>
-		                		</li>
-		                		<li>
-		                  			<a href="https://twitter.com/"><i class="ion-social-twitter"></i></a>
-		                		</li>
-		                		<li>
-		                  			<a href="https://www.youtube.com/"><i class="ion-social-youtube"></i></a>
-		                		</li>
-		                		<li>
-		                  			<a href="https://www.linkedin.com/"><i class="ion-social-linkedin"></i></a>
-		                		</li>
-		                		<li>
-		                  			<a href="https://www.pinterest.com/"><i class="ion-social-pinterest"></i></a>
-		                		</li>
-		                		<li>
-		                  			<a href="https://www.instagram.com/"><i class="ion-social-instagram"></i></a>
-		                		</li>
-		              		</ul>
-		            	</div>
+	        <form action="get" class="contact__form text-center">
+	            <div class="contact__form-info">
+	                <input type="text" name="name" placeholder="Your Name*" class="contact__form-info-name">
+	                <input type="email" name="email" placeholder="Your Email*">
+	            </div>
+	            <textarea name="message" cols="30" rows="10" placeholder="Your Message*"></textarea>
+	            <input type="submit" class="contact__form-btn" id="btn-form" value="SEND MESSAGE">
+	        </form>
 
-		          	</div>
+	        <div class="contact__address">
+	            <div class="contact__address-icon">
+	                <img src="img/subscribeHome.png" alt="Address">
+	            </div>
+	            <div class="contact__address-info">
+	                <p>Ivano-Frankivsk<br>
+	                   Ukraine, 76008</p>
+	            </div>
+	        </div>
 
-		          	<div class="col-md-6">
+	        <div class="contact__tel">
+	            <div class="contact__tel-icon">
+	                <img src="img/subscribeTell.png" alt="Telephone">
+	            </div>
+	            <div class="contact__tel-info">
+	                <p>+38(066)9825545</p>
+	            </div>
+	        </div>
 
-		            	<div class="ba-map">
-		              		<!-- map here -->
-		            	</div>
-
-		          	</div>
-
-		        </div>	
-			</div>
-		</section>
+	    </section>
 
 		<section class="ba-section ba-subscribe">
 			<div class="container">
 
 				<div class="row">
 					<div class="col-md-6 col-sm-12">
-						<h2 class="text-sm-left text-center">YOU THINK WE'RE COOL ? LET'S WORK TOGETHER</h2>
-						<a class="btn btn-backward" href="contacts.html">get in touch</a>
+						<h2 class="text-sm-left text-center">YOU THINK I'M COOL ? LET'S WORK TOGETHER</h2>
+						<a class="btn btn-backward" href="Velychko Khrystyna frontend.pdf" target="_blank" download>My Resume <span>&#9944;</a>
 					</div>
 					<form action="#" method="post" class="col-md-6 col-sm-12">
-						<h3 class="text-sm-left text-center">STAY INFORMED WITH OUR NEWSLETTER</h3>
-            			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						<h3 class="text-sm-left text-center">STAY INFORMED WITH MY NEWSLETTER</h3>
+            			<p>Find out first about new posts in my blog about knowledge of Front-End Web Development.
             			</p>
             			<div class="row row-form">
             				<input class="float-sm-left" type="email" name="email" placeholder="your email" required="">
@@ -187,30 +153,30 @@
 				<div class="col-lg-6 col-md-12">
 					<ul class="ba-fotter-menu text-sm-center text-center float-md-left">
 						<li><a href="index.html">Home</a><span>-</span></li>
-						<li><a href="about.html">About Us</a><span>-</span></li>
-						<li><a href="services.html">Services</a><span>-</span></li>
+						<li><a href="resume.html">My Resume</a><span>-</span></li>
+						<li><a href="skills.html">Skills</a><span>-</span></li>
             			<li ><a href="blog.html">Blog</a><span>-</span></li>
-            			<li><a href="contacts.html" class="active">Contact Us</a></li>
+            			<li><a href="contacts.html" class="active">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-6 col-md-12">
 					<div class="ba-footer__content text-sm-center text-center float-md-right">
-						<p>Created by akhouad 2016. All Rights Reserved</p>
-            			<ul class="ba-social float-md-right .mx-sm-auto .mx-auto">
-              				<li><a href="https://www.facebook.com/"><i class="ba-social__icon ion-social-facebook float-md-left"></i></a></li>
-              				<li><a href="https://twitter.com/"><i class="ba-social__icon ion-social-twitter float-md-left"></i></a></li>
-              				<li><a href="https://www.youtube.com/"><i class="ba-social__icon ion-social-youtube float-md-left"></i></a></li>
+						<p>Created by VK 2018. All Rights Reserved</p>
+						<ul class="ba-social float-md-right">
               				<li><a href="https://www.linkedin.com/"><i class="ba-social__icon ion-social-linkedin float-md-left"></i></a></li>
-             				<li><a href="https://www.pinterest.com/"><i class="ba-social__icon ion-social-pinterest float-md-left"></i></a></li>
-              				<li><a href="https://www.instagram.com/"><i class="ba-social__icon ion-social-instagram float-md-left"></i></a></li>
+              				<li><a href="https://www.facebook.com/xpuctihu"><i class="ba-social__icon ion-social-facebook float-md-left"></i></a></li>
+             				<li><a href="https://github.com/XpucTiHu"><i class="ba-social__icon ion-social-github float-md-left"></i></a></li>
+              				<li><a href="https://www.upwork.com/o/profiles/users/_~01d232844d0b188820/"><i class="ba-social__icon ion-code float-md-left"></i></a></li>
             			</ul>
 					</div>
 				</div>
-
 			</div>
 
 		</div>
 	</footer>
+
+	<!-- Go to top button -->
+	<button type="button" name="top" id="myBtn"><a href="#" class="scroll" data-scroll><img src="img/up.png" alt="Go to top"></a></button>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jquery + smooth scroll -->
 	<script src="js/slick.min.js"></script> <!-- slider -->

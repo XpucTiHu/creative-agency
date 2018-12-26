@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Blog - AKAD</title>
-	<meta name="description" content="Blog - AKAD. Creative Agency"/>
-	<meta name="keywords" content="creative, agency, blog, AKAD"/>
+	<title>Blog - VK</title>
+	<meta name="description" content="Blog - VK. Velychko Khrystyna"/>
+	<meta name="keywords" content="blog, VK"/>
 	<link rel="icon" href="favicon.png"/>
 	<link rel="stylesheet" href="css/slick.css"> <!-- slider -->
 	<link rel="stylesheet" href="css/slick-theme.css"> <!-- slider -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<!--<link rel="stylesheet" href="css/normalize.css"/>-->
 	<!--<link rel="stylesheet" href="css/layout.css"/>-->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,13 +22,24 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="ba-intro ba-intro--home" style="background-image: url(img/bg.jpg);">
+
+	<!-- Floating Social Buttons -->    
+	<div id="float-social">
+	    <ul>
+	        <li><a href="https://www.linkedin.com/in/khrystyna-parkhuts-3182a480/" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+	        <li><a href="https://github.com/XpucTiHu" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a></li>
+	        <li><a href="https://www.facebook.com/xpuctihu" target="_blank" title="Follow me on Facebook"><i class="fab fa-facebook"></i></a></li>
+	        <li><a href="https://www.upwork.com/o/profiles/users/_~01d232844d0b188820/" target="_blank" class="upwork" title="Hire me on Upwork">U</a></li>
+	    </ul>
+	</div>
+
+	<div class="ba-intro ba-intro--home" style="background-image: url(img/binary-code-background.jpg);">
 
 		<nav class="navbar navbar-expand-lg ba-top-navbar fixed-top">
 			<div class="container">
 				
 				<a class="navbar-brand" href="index.html">
-					<img src="img/logo.png" alt="AKAD">
+					<img src="img/logo.png" alt="VK">
 				</a>
 				<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"><img src="img/menu.png" alt="menu"></span>
@@ -36,26 +48,26 @@
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0 ba-main-menu">
 						<li class="nav-item">
-							<a href="index.html" class="nav-link col-sm-12 text-center">Home</a>
+							<a href="index.html" class="nav-link col-sm-12 text-center scroll">Home</a>
 						</li>
 						<li class="nav-item">
-							<a href="about.html" class="nav-link col-sm-12 text-center">About Us</a>
+							<a href="resume.html" class="nav-link col-sm-12 text-center scroll">My Resume</a>
 						</li>
 						<li class="nav-item">
-							<a href="services.html" class="nav-link col-sm-12 text-center">Services<span class="sr-only">(current)</span></a>
+							<a href="skills.html" class="nav-link col-sm-12 text-center scroll">Skills</a>
 						</li>
 						<li class="nav-item active">
-							<a href="blog.html" class="nav-link col-sm-12 text-center">Blog</a>
+							<a href="blog.html" class="nav-link col-sm-12 text-center scroll">Blog<span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a href="contacts.html" class="nav-link col-sm-12 text-center">Contact Us</a>
+							<a href="contacts.html" class="nav-link col-sm-12 text-center scroll">Contact</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 
-		<div class="container">
+		<div class="container ba-intro__body--blog">
       		<div class="ba-intro__body text-center">
       			<h1 class="ba-page-title">Blog posts</h1>
         		<!-- <p class="ba-intro__subtitle">home / blog</p> -->
@@ -63,6 +75,7 @@
           			<li><a href="index.html">HOME</a></li>
           			<li class="active">blog</li>
         		</ol>
+        		<a href="#blogpost" data-scroll class="down-arrow scroll"><i class="fas fa-arrow-circle-down"></i></a>
       		</div>
       	</div>
 		
@@ -70,67 +83,67 @@
 
 	<main role="main" class="main-about">
 
-		<section class="ba-section">
+		<section class="ba-section" id="blogpost">
 			<div class="container">
 
 				<div class="row d-flex justify-content-between">
 					<div class="col-md-8 order-md-1 order-sm-2 order-2">
 
 						<article class="ba-post">
-							<a href="#" class="ba-post__img"><img src="img/nature.jpg" alt="Nature"></a>
+							<a href="What You Need to Know.html" class="ba-post__img"><img src="img/nature.jpg" alt="Nature"></a>
 							<div class="ba-post__meta">
-								<time datetime="2015-10-13" class="ba-post__date">October 13, 2015</time>
+								<time datetime="2018-12-25" class="ba-post__date">December 25, 2018</time>
 								<div class="ba-post__comments">
-									<i class="ion-chatbox-working"></i>8
+									<i class="ion-chatbox-working"></i>0
 								</div>
 								<div class="ba-post__likes">
-									<i class="ion-ios-heart"></i>15
+									<i class="ion-ios-heart"></i>3
 								</div>
 							</div>
 							<h2 class="ba-post__title">
-								<a href="#">THE BIG LEAGUES OUR TURN STRAIGHTNIN</a>
+								<a href="What You Need to Know.html">Exactly What You Need to Know to Be a Front End Developer</a>
 							</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							<p>Have you ever looked at your favorite website and wondered exactly what made it tick? Have you looked at the way it was laid out, the way the buttons acted when you clicked them, or any other part and thought, “I wonder how complicated that is?” or, “I wish I could do that”?
               				</p>
-              				<a href="#" class="ba-post__readmore">continue reading</a>
+              				<a href="What You Need to Know.html" class="ba-post__readmore">continue reading</a>
 						</article>
 
 						<article class="ba-post">
-							<a href="#" class="ba-post__img"><img src="img/nature.jpg" alt="Nature"></a>
+							<a href="Front End, Back End, Full Stack.html" class="ba-post__img"><img src="img/nature1.jpg" alt="Nature"></a>
 							<div class="ba-post__meta">
-								<time datetime="2015-10-13" class="ba-post__date">October 13, 2015</time>
+								<time datetime="2018-12-24" class="ba-post__date">December 24, 2018</time>
 								<div class="ba-post__comments">
-									<i class="ion-chatbox-working"></i>8
+									<i class="ion-chatbox-working"></i>0
 								</div>
 								<div class="ba-post__likes">
-									<i class="ion-ios-heart"></i>15
+									<i class="ion-ios-heart"></i>5
 								</div>
 							</div>
 							<h2 class="ba-post__title">
-								<a href="#">THE BIG LEAGUES OUR TURN STRAIGHTNIN</a>
+								<a href="Front End, Back End, Full Stack.html">Front End, Back End, Full Stack—What Does it All Mean?</a>
 							</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							<p>I used to think that you were either a web designer or a web developer. Or maybe you were one of those rare unicorns who did both. But either way, you either worked on the design of the site, or the code that made it work.<br>And then I started seeing all these job listings asking for “front end developers” or “back end developers” and even “full stack developers.” What the heck did that mean?
               				</p>
-              				<a href="#" class="ba-post__readmore">continue reading</a>
+              				<a href="Front End, Back End, Full Stack.html" class="ba-post__readmore">continue reading</a>
 						</article>
 
 						<article class="ba-post">
-							<a href="#" class="ba-post__img"><img src="img/nature.jpg" alt="Nature"></a>
+							<a href="5 Women.html" class="ba-post__img"><img src="img/nature2.jpg" alt="Nature"></a>
 							<div class="ba-post__meta">
-								<time datetime="2015-10-13" class="ba-post__date">October 13, 2015</time>
+								<time datetime="2018-12-23" class="ba-post__date">December 23, 2018</time>
 								<div class="ba-post__comments">
-									<i class="ion-chatbox-working"></i>8
+									<i class="ion-chatbox-working"></i>2
 								</div>
 								<div class="ba-post__likes">
-									<i class="ion-ios-heart"></i>15
+									<i class="ion-ios-heart"></i>4
 								</div>
 							</div>
 							<h2 class="ba-post__title">
-								<a href="#">THE BIG LEAGUES OUR TURN STRAIGHTNIN</a>
+								<a href="5 Women.html">5 Women on How They Scored $10,000+ Raises</a>
 							</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+							<p>It’s fair to wonder if the investment in learning tech skills is worth it—both in terms of the money and the time you put in. The good news is that these skills do pay off: One of the biggest perks of a tech career is that paycheck, which is often substantial. Add that to the lifestyle perks like flexibility and remote work, and you’ve got the makings of a remarkably fulfilling career.
               				</p>
-              				<a href="#" class="ba-post__readmore">continue reading</a>
+              				<a href="5 Women.html" class="ba-post__readmore">continue reading</a>
 						</article>
 						
 					</div>
@@ -144,6 +157,11 @@
                   					<input type="search" name="search" class="form-control mr-sm-2 float-sm-left" aria-label="Search" placeholder="Search..." required>
                   					<button type="submit"><i class="icon ion-search"></i></button>
                 				</form>
+              				</div>
+
+              				<div class="ba-widget">
+              					<h3>Introduction</h3>
+              					<p>This is my blog, where I'll post articles and topics about my knowledge of Front-End Web Development and my journey.</p>
               				</div>
 
               				<div class="ba-widget">
@@ -162,61 +180,61 @@
 					            <div class="tab-content">
 					                <div role="tabpanel" class="tab-pane active" id="latest">
 					                	<article class="ba-sidebar-post">
-					                    	<a class="ba-sidebar-post__img" href="single-post.html">
-					                      		<img src="img/winter.png" alt="winter"/>
+					                    	<a class="ba-sidebar-post__img" href="What You Need to Know.html">
+					                      		<img src="img/winter.jpg" alt="winter"/>
 					                    	</a>
 					                    	<div class="ba-sidebar-post__text">
-					                      		<a href="single-post.html">Magna mollis ultricies</a>
-					                      		<time datetime="2012-10-03">3th oct 2012</time>
+					                      		<a href="What You Need to Know.html">What You Need to Know</a>
+					                      		<time datetime="2018-12-25">25 dec 2018</time>
 					                    	</div>
 					                  	</article>
 					                  	<article class="ba-sidebar-post">
-					                    	<a class="ba-sidebar-post__img" href="single-post.html">
-					                      		<img src="img/forest.png" alt="forest"/>
+					                    	<a class="ba-sidebar-post__img" href="Front End, Back End, Full Stack.html">
+					                      		<img src="img/forest.jpg" alt="forest"/>
 					                    	</a>
 					                    	<div class="ba-sidebar-post__text">
-					                     		<a href="single-post.html">Magna mollis ultricies</a>
-					                      		<time datetime="2012-10-03">3th oct 2012</time>
+					                     		<a href="Front End, Back End, Full Stack.html">Front End, Back End, F...</a>
+					                      		<time datetime="2018-12-24">24 dec 2018</time>
 					                    	</div>
 					                  	</article>
 					                  	<article class="ba-sidebar-post">
-					                    	<a class="ba-sidebar-post__img" href="single-post.html">
-					                      		<img src="img/mountins.png" alt="mountins"/>
+					                    	<a class="ba-sidebar-post__img" href="5 Women.html">
+					                      		<img src="img/mountins.jpg" alt="mountins"/>
 					                    	</a>
 					                    	<div class="ba-sidebar-post__text">
-					                      		<a href="single-post.html">Magna mollis ultricies</a>
-					                      		<time datetime="2012-10-03">3th oct 2012</time>
+					                      		<a href="5 Women.html">5 Women on How They...</a>
+					                      		<time datetime="2018-12-23">23 dec 2018</time>
 					                    	</div>
 					                  	</article>
 					                </div>
 					                <div role="tabpanel" class="tab-pane" id="popular">
 					                  	<article class="ba-sidebar-post">
-					                    	<a class="ba-sidebar-post__img" href="single-post.html">
-					                      		<img src="img/winter.png" alt="winter"/>
+					                    	<a class="ba-sidebar-post__img" href="What You Need to Know.html">
+					                      		<img src="img/winter.jpg" alt="winter"/>
 					                    	</a>
 					                    	<div class="ba-sidebar-post__text">
-					                      		<a href="single-post.html">Magna mollis ultricies</a>
-					                      		<time datetime="2012-10-03">3th oct 2012</time>
+					                      		<a href="What You Need to Know.html">What You Need to Know</a>
+					                      		<time datetime="2018-12-25">25 dec 2018</time>
 					                    	</div>
 					                  	</article>
 					                  	<article class="ba-sidebar-post">
-					                    	<a class="ba-sidebar-post__img" href="single-post.html">
-					                      		<img src="img/forest.png" alt="forest"/>
+					                    	<a class="ba-sidebar-post__img" href="Front End, Back End, Full Stack.html">
+					                      		<img src="img/forest.jpg" alt="forest"/>
 					                    	</a>
 					                    	<div class="ba-sidebar-post__text">
-					                      		<a href="single-post.html">Magna mollis ultricies</a>
-					                      		<time datetime="2012-10-03">3th oct 2012</time>
+					                      		<a href="Front End, Back End, Full Stack.html">Front End, Back End, F...</a>
+					                      		<time datetime="2018-12-24">24 dec 2018</time>
 					                    	</div>
 					                  	</article>
 					                </div>
 					                <div role="tabpanel" class="tab-pane" id="comments">
 					                  	<article class="ba-sidebar-post">
-					                    	<a class="ba-sidebar-post__img" href="single-post.html">
-					                      		<img src="img/winter.png" alt="winter"/>
+					                    	<a class="ba-sidebar-post__img" href="What You Need to Know.html">
+					                      		<img src="img/winter.jpg" alt="winter"/>
 					                    	</a>
 					                    	<div class="ba-sidebar-post__text">
-					                      		<a href="single-post.html">Magna mollis ultricies</a>
-					                      		<time datetime="2012-10-03">3th oct 2012</time>
+					                      		<a href="What You Need to Know.html">What You Need to Know</a>
+					                      		<time datetime="2018-12-25">25 dec 2018</time>
 					                    	</div>
 					                  	</article>
 					                </div>
@@ -226,10 +244,10 @@
             			    <div class="ba-widget">
             					<h6 class="ba-widget__title">categories</h6>
 								<ul class="ba-categories__list">
-									<li class="d-flex justify-content-between">Business<span class="ba-categories__number">15</span></li>
-									<li class="d-flex justify-content-between">Photography<span class="ba-categories__number">17</span></li>
-									<li class="d-flex justify-content-between">Journal<span class="ba-categories__number">22</span></li>
-									<li class="d-flex justify-content-between">Web devlopment<span class="ba-categories__number">30</span></li>
+									<li class="d-flex justify-content-between">Front-end development<span class="ba-categories__number">3</span></li>
+									<li class="d-flex justify-content-between">Web design<span class="ba-categories__number">2</span></li>
+									<li class="d-flex justify-content-between">A/B Testing<span class="ba-categories__number">1</span></li>
+									<li class="d-flex justify-content-between">Web development<span class="ba-categories__number">3</span></li>
 								</ul>
 							</div>
 					
@@ -246,16 +264,6 @@
 									<li><a href="#">jquery</a></li>
 								</ul>
 							</div>
-					
-							<div class="ba-widget">
-            					<h6 class="ba-widget__title">archives</h6>
-								<ul class="ba-categories__list">
-									<li class="d-flex justify-content-between">Business<span class="ba-categories__number">15</span></li>
-									<li class="d-flex justify-content-between">Photography<span class="ba-categories__number">17</span></li>
-									<li class="d-flex justify-content-between">Journal<span class="ba-categories__number">22</span></li>
-									<li class="d-flex justify-content-between">Web devlopment<span class="ba-categories__number">30</span></li>
-								</ul>
-							</div>
 
 						</div>
 
@@ -266,19 +274,18 @@
 			</div>
 		</section>
 
-
-
 		<section class="ba-section ba-subscribe">
 			<div class="container">
 
 				<div class="row">
 					<div class="col-md-6 col-sm-12">
-						<h2 class="text-sm-left text-center">YOU THINK WE'RE COOL ? LET'S WORK TOGETHER</h2>
-						<a class="btn btn-backward" href="contacts.html">get in touch</a>
+						<h2 class="text-sm-left text-center">YOU THINK I'M COOL ? LET'S WORK TOGETHER</h2>
+						<a class="btn btn-backward" href="Velychko Khrystyna frontend.pdf" target="_blank" download>My Resume <span>&#9944;</a>
 					</div>
 					<form action="#" method="post" class="col-md-6 col-sm-12">
-						<h3 class="text-sm-left text-center">STAY INFORMED WITH OUR NEWSLETTER</h3>
-            			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						<h3 class="text-sm-left text-center">STAY INFORMED WITH MY NEWSLETTER</h3>
+            			<p>Find out first about new posts in my blog about knowledge of Front-End Web Development.
+            			</p>
             			</p>
             			<div class="row row-form">
             				<input class="float-sm-left" type="email" name="email" placeholder="your email" required="">
@@ -299,30 +306,31 @@
 				<div class="col-lg-6 col-md-12">
 					<ul class="ba-fotter-menu text-sm-center text-center float-md-left">
 						<li><a href="index.html">Home</a><span>-</span></li>
-						<li><a href="about.html">About Us</a><span>-</span></li>
-            			<li><a href="services.html">Services</a><span>-</span></li>
+						<li><a href="resume.html">My Resume</a><span>-</span></li>
+						<li><a href="skills.html">Skills</a><span>-</span></li>
             			<li ><a href="blog.html" class="active">Blog</a><span>-</span></li>
-            			<li><a href="contacts.html">Contact Us</a></li>
+            			<li><a href="contacts.html">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-6 col-md-12">
 					<div class="ba-footer__content text-sm-center text-center float-md-right">
-						<p>Created by akhouad 2016. All Rights Reserved</p>
-            			<ul class="ba-social float-md-right .mx-sm-auto .mx-auto">
-              				<li><a href="https://www.facebook.com/"><i class="ba-social__icon ion-social-facebook float-md-left"></i></a></li>
-              				<li><a href="https://twitter.com/"><i class="ba-social__icon ion-social-twitter float-md-left"></i></a></li>
-              				<li><a href="https://www.youtube.com/"><i class="ba-social__icon ion-social-youtube float-md-left"></i></a></li>
+						<p>Created by VK 2018. All Rights Reserved</p>
+            			<ul class="ba-social float-md-right">
               				<li><a href="https://www.linkedin.com/"><i class="ba-social__icon ion-social-linkedin float-md-left"></i></a></li>
-             				<li><a href="https://www.pinterest.com/"><i class="ba-social__icon ion-social-pinterest float-md-left"></i></a></li>
-              				<li><a href="https://www.instagram.com/"><i class="ba-social__icon ion-social-instagram float-md-left"></i></a></li>
+              				<li><a href="https://www.facebook.com/xpuctihu"><i class="ba-social__icon ion-social-facebook float-md-left"></i></a></li>
+             				<li><a href="https://github.com/XpucTiHu"><i class="ba-social__icon ion-social-github float-md-left"></i></a></li>
+              				<li><a href="https://www.upwork.com/o/profiles/users/_~01d232844d0b188820/"><i class="ba-social__icon ion-code float-md-left"></i></a></li>
             			</ul>
 					</div>
 				</div>
-
 			</div>
 
 		</div>
 	</footer>
+
+	<!-- Go to top button -->
+	<button type="button" name="top" id="myBtn"><a href="#" class="scroll" data-scroll><img src="img/up.png" alt="Go to top"></a></button>
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jquery + smooth scroll -->
 	<script src="js/slick.min.js"></script> <!-- slider -->

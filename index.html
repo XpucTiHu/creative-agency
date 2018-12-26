@@ -4,10 +4,11 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Creative Agency</title>
-	<meta name="description" content="Creative Agency"/>
-	<meta name="keywords" content="creative, agency"/>
+	<title>Velychko Khrystyna</title>
+	<meta name="description" content="Velychko Khrystyna - Front-end Developer"/>
+	<meta name="keywords" content="front-end, developer"/>
 	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<!--<link rel="stylesheet" href="css/normalize.css"/>-->
 	<!--<link rel="stylesheet" href="css/layout.css"/>-->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,13 +20,26 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="ba-intro ba-intro--home" style="background-image: url(img/intro-bg.jpg);">
+
+	<!-- Floating Social Buttons -->    
+	<div id="float-social">
+	    <ul>
+	        <li><a href="https://www.linkedin.com/in/khrystyna-parkhuts-3182a480/" target="_blank" title="Connect with me on LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+	        <li><a href="https://github.com/XpucTiHu" target="_blank" title="Follow me on GitHub"><i class="fab fa-github"></i></a></li>
+	        <li><a href="https://www.facebook.com/xpuctihu" target="_blank" title="Follow me on Facebook"><i class="fab fa-facebook"></i></a></li>
+	        <li><a href="https://www.upwork.com/o/profiles/users/_~01d232844d0b188820/" target="_blank" class="upwork" title="Hire me on Upwork">U</a></li>
+	    </ul>
+	</div>
+
+	<div class="ba-intro ba-intro--home" id="large-header" class="large-header">
+
+		<canvas id="canvas"></canvas>
 
 		<nav class="navbar navbar-expand-lg ba-top-navbar fixed-top">
 			<div class="container">
 				
 				<a class="navbar-brand" href="index.html">
-					<img src="img/logo.png" alt="AKAD">
+					<img src="img/logo.png" alt="VK">
 				</a>
 				<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"><img src="img/menu.png" alt="menu"></span>
@@ -34,19 +48,19 @@
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0 ba-main-menu">
 						<li class="nav-item active">
-							<a href="index.html" class="nav-link col-sm-12 text-center">Home <span class="sr-only">(current)</span></a>
+							<a href="index.html" class="nav-link col-sm-12 text-center scroll">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a href="about.html" class="nav-link col-sm-12 text-center">About Us</a>
+							<a href="resume.html" class="nav-link col-sm-12 text-center scroll">My Resume</a>
 						</li>
 						<li class="nav-item">
-							<a href="services.html" class="nav-link col-sm-12 text-center">Services</a>
+							<a href="skills.html" class="nav-link col-sm-12 text-center scroll">Skills</a>
 						</li>
 						<li class="nav-item">
-							<a href="blog.html" class="nav-link col-sm-12 text-center">Blog</a>
+							<a href="blog.html" class="nav-link col-sm-12 text-center scroll">Blog</a>
 						</li>
 						<li class="nav-item">
-							<a href="contacts.html" class="nav-link col-sm-12 text-center">Contact Us</a>
+							<a href="contacts.html" class="nav-link col-sm-12 text-center scroll">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -55,20 +69,21 @@
 
 		<div class="container">
 			<div class="ba-intro__body ba-intro__body--home">
-				<h1 class="ba-intro__title"><span><small>WE'RE</small>CREATIVE AGENCI</span></h1>
-				<p class="ba-intro__subtitle--home">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore magna aliqua.</p>
+				<h1 class="ba-intro__title"><span><small>Front-end Developer</small>Velychko Khrystyna</span></h1>
+				<h3 class="ba-intro__subtitle--home">I'll build something helpful for you and for your business.</h3>
+				<a href="#about" data-scroll class="down-arrow scroll"><i class="fas fa-arrow-circle-down"></i></a>
 			</div>
-			<div class="ba-intro-about">
+			<div class="ba-intro-about" id="about">
 				<div class="row">
 					<div class="col-sm-6 text-sm-left text-center">
 						<img src="img/intro-about.jpg" alt="intro-about">
 					</div>
 					<div class="col-sm-6">
-						<h2 class="ba-title text-sm-left text-center"><span>HISTORY OF AGENCY</span></h2>
-						<p>Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore.
+						<h2 class="ba-title text-sm-left text-center"><span>About Me</span></h2>
+						<p>My name is Khrystyna Velychko, I'm a Front-End Web Developer from Ukraine. I love to create and build websites which are mobile-first ready, fully responsive, minimal, SEO friendly and at the same time attractive and user-friendly for individuals, startups, businesses etc. I built my portfolio site from the grounds up by using all the skills that I know. I also have some fairly basic knowledge of Web/Graphic Design. I'm always motivated and have the desire to learn more.<br><br>While I'm not debugging some code or trying to position elements right, I fall in love with new countries.	
 	            		</p>
-	            		<div class="text-md-right col-sm-12">
-	            			<a class="btn btn-primary" href="about.html">READ MORE</a>
+	            		<div class="text-md-center col-sm-12">
+	            			<a class="btn btn-primary" href="resume.html">READ MORE</a>
 	            		</div>
 					</div>						
 
@@ -84,8 +99,8 @@
 			<div class="container">
 				
 				<div class="ba-section__content">
-					<h2 class="ba-title text-center"><span>Why choose us</span></h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					<h2 class="ba-title text-center"><span>Why me?</span></h2>
+					<p>I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.<br>Let's make something special.
           			</p>
 				</div>
 
@@ -95,23 +110,21 @@
 						
 						<div class="ba-service">
 							<div class="ba-service__icon ion-ios-infinite-outline"></div>
-							<h3 class="ba-service__title">unlimited options</h3>
+							<h3 class="ba-service__title">Development</h3>
 							<ul class="ba-service__list">
-								<li>Branding</li>
-								<li>Design &amp; Copywriting</li>
-                				<li>Concept development</li>
-                				<li>User Experience</li>
+								<li>Develop new user-facing features</li>
+								<li>Build reusable code</li>
+                				<li>Optimize application for maximum speed</li>
 							</ul>
 						</div>
 
 						<div class="ba-service">
 							<div class="ba-service__icon ion-ios-cart-outline"></div>
-							<h3 class="ba-service__title">e-commerce</h3>
+							<h3 class="ba-service__title">SEO</h3>
 							<ul class="ba-service__list">
-								<li>Prototyping</li>
-                				<li>Technical Consulting</li>
-                				<li>Web applications</li>
-                				<li>Quality testing</li>
+								<li>Creating the strategy of project optimization</li>
+                				<li>Technical optimisation</li>
+                				<li>Monitoring and evaluating organic search results</li>
 							</ul>
 						</div>
 
@@ -121,30 +134,36 @@
 
 						<div class="ba-service">
               				<div class="ba-service__icon ion-ios-shuffle"></div>
-              				<h3 class="ba-service__title">DESIGN &amp; DEVELOPMENT</h3>
+              				<h3 class="ba-service__title">Responsive</h3>
               				<ul class="ba-service__list">
-                				<li>Information architecture</li>
-                				<li>Interface design</li>
-                				<li>Product Design</li>
-                				<li>Integrated ad Companies</li>
+                				<li>Work on any device</li>
+                				<li>Optimize application for maximum scalability</li>
+                				<li>Strong preference for easy to use</li>
               				</ul>
             			</div>
 
             			<div class="ba-service">
               				<div class="ba-service__icon ion-ios-settings"></div>
-              				<h3 class="ba-service__title">CUSTOMIZABLE DESIGN</h3>
+              				<h3 class="ba-service__title">Dynamic Design</h3>
               				<ul class="ba-service__list">
-                				<li>Information architecture</li>
-                				<li>Interface design</li>
-                				<li>Product Design</li>
-                				<li>Integrated ad Companies</li>
+                				<li>Ensure the technical feasibility of UI/UX</li>
+                				<li>Making pages come to life</li>
+                				<li>A/B Testing</li>
               				</ul>
             			</div>
 					
 					</div>
 
-					<div class="col-sm-5 col-sm-offset-1 text-center">
-						<img src="img/room.jpg" alt="room">
+					<div class="col-sm-5 col-sm-offset-1 text-center ba-service-animation">
+						<div id=container>
+							Make 
+							<div id=flip>
+								<div><div>Work</div></div>
+								<div><div>Code</div></div>
+								<div><div>Everything</div></div>
+							</div>
+						  	AweSoMe!
+						</div>
 					</div>
 
 				</div>
@@ -155,9 +174,7 @@
 			<div class="container">
 
 				<div class="ba-section__content">
-          			<h2 class="ba-title text-center"><span>our portfolio</span></h2>
-          			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          			</p>
+          			<h2 class="ba-title text-center"><span>Portfolio</span></h2>
         		</div>
 
         		<div class="row">
@@ -166,43 +183,46 @@
         				<h3 class="ba-category__title">CHOOSE CATEGORY</h3>
         				<ul class="ba-portfolio-filter">
         					<li><a href="#" class="ba-portfolio-filter__item active col-lg-4 col-md-6 col-sm-12" data-filter="*">ALL</a></li>
-        					<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".webdesign">webdesign</a></li>
-        					<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".graphic-design">graphic design</a></li>
-              				<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".fashion">fashion</a></li>
-              				<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".logo-design">logo design</a></li>
-              				<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".advertising">advertising</a></li>
+        					<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".news">News portals</a></li>
+        					<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".comercial">E-commerce</a></li>
+              				<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".events">Events</a></li>
+              				<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".corporate">Corporate</a></li>
+              				<li><a href="#" class="ba-portfolio-filter__item col-lg-10 col-md-12 col-sm-12" data-filter=".advertising">Advertising</a></li>
         				</ul>	
         			</div>
 
         			<div class="col-sm-8 col-md-9">
         				<div class="ba-portfolio-grid">
 
-        					<div class="ba-portfolio-grid__item webdesign advertising">
-        						<img src="img/line.jpg" alt="line">
+              				<div class="ba-portfolio-grid__item news events">
+                				<img src="img/bouncy.jpg" alt="bouncy">
+              				</div>
+              				<div class="ba-portfolio-grid__item news corporate">
+                				<img src="img/applicat.jpg" alt="applicature">
+              				</div>
+              				<div class="ba-portfolio-grid__item events">
+        						<img src="img/sunmarino.jpg" alt="sunmarino">
         					</div>
-        					<div class="ba-portfolio-grid__item webdesign graphic-design">
-                				<img src="img/forest.jpg" alt="forest">
+              				<div class="ba-portfolio-grid__item comercial">
+                				<img src="img/bestoils.jpg" alt="bestoils">
               				</div>
-              				<div class="ba-portfolio-grid__item graphic-design">
-                				<img src="img/box.jpg" alt="box">
+              				<div class="ba-portfolio-grid__item news corporate">
+                				<img src="img/cahee.jpg" alt="cahee">
               				</div>
-              				<div class="ba-portfolio-grid__item fashion advertising">
-                				<img src="img/kakao.jpg" alt="kakao">
+              				<div class="ba-portfolio-grid__item advertising">
+                				<img src="img/mail.jpg" alt="mail">
               				</div>
-              				<div class="ba-portfolio-grid__item graphic-design">
-                				<img src="img/roam.jpg" alt="roam">
+              				<div class="ba-portfolio-grid__item news corporate">
+                				<img src="img/7altcoins.jpg" alt="7altcoins">
               				</div>
-              				<div class="ba-portfolio-grid__item fashion logo-design">
-                				<img src="img/gin.jpg" alt="gin">
+              				<div class="ba-portfolio-grid__item news">
+                				<img src="img/bhromaon.jpg" alt="bhromaon">
               				</div>
-              				<div class="ba-portfolio-grid__item logo-design fashion">
-                				<img src="img/cow.jpg" alt="cow">
+              				<div class="ba-portfolio-grid__item corporate comercial">
+                				<img src="img/icoserv.jpg" alt="icoservice">
               				</div>
-              				<div class="ba-portfolio-grid__item logo-design">
-                				<img src="img/milk.jpg" alt="milk">
-              				</div>
-              				<div class="ba-portfolio-grid__item advertising fashion">
-                				<img src="img/paint.jpg" alt="paint">
+              				<div class="ba-portfolio-grid__item advertising comercial news">
+                				<img src="img/yogamarket.jpg" alt="yogamarket">
               				</div>              				
 
         				</div>
@@ -218,12 +238,12 @@
 
 				<div class="row">
 					<div class="col-md-6 col-sm-12">
-						<h2 class="text-sm-left text-center">YOU THINK WE'RE COOL ? LET'S WORK TOGETHER</h2>
-						<a class="btn btn-backward" href="contacts.html">get in touch</a>
+						<h2 class="text-sm-left text-center">YOU THINK I'M COOL ? LET'S WORK TOGETHER</h2>
+						<a class="btn btn-backward" href="Velychko Khrystyna frontend.pdf" target="_blank" download>My Resume <span>&#9944;</a>
 					</div>
 					<form action="#" method="post" class="col-md-6 col-sm-12">
-						<h3 class="text-sm-left text-center">STAY INFORMED WITH OUR NEWSLETTER</h3>
-            			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						<h3 class="text-sm-left text-center">STAY INFORMED WITH MY NEWSLETTER</h3>
+            			<p>Find out first about new posts in my blog about knowledge of Front-End Web Development.
             			</p>
             			<div class="row row-form">
             				<input class="float-sm-left" type="email" name="email" placeholder="your email" required="">
@@ -244,22 +264,20 @@
 				<div class="col-lg-6 col-md-12">
 					<ul class="ba-fotter-menu text-sm-center text-center float-md-left">
 						<li><a href="index.html" class="active">Home</a><span>-</span></li>
-						<li><a href="about.html">About Us</a><span>-</span></li>
-						<li><a href="services.html">Services</a><span>-</span></li>
+						<li><a href="resume.html">My Resume</a><span>-</span></li>
+						<li><a href="skills.html">Skills</a><span>-</span></li>
             			<li ><a href="blog.html">Blog</a><span>-</span></li>
-            			<li><a href="contacts.html">Contact Us</a></li>
+            			<li><a href="contacts.html">Contact</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-6 col-md-12">
 					<div class="ba-footer__content text-sm-center text-center float-md-right">
-						<p>Created by akhouad 2016. All Rights Reserved</p>
+						<p>Created by VK 2018. All Rights Reserved</p>
 						<ul class="ba-social float-md-right">
-              				<li><a href="https://www.facebook.com/"><i class="ba-social__icon ion-social-facebook float-md-left"></i></a></li>
-              				<li><a href="https://twitter.com/"><i class="ba-social__icon ion-social-twitter float-md-left"></i></a></li>
-              				<li><a href="https://www.youtube.com/"><i class="ba-social__icon ion-social-youtube float-md-left"></i></a></li>
               				<li><a href="https://www.linkedin.com/"><i class="ba-social__icon ion-social-linkedin float-md-left"></i></a></li>
-             				<li><a href="https://www.pinterest.com/"><i class="ba-social__icon ion-social-pinterest float-md-left"></i></a></li>
-              				<li><a href="https://www.instagram.com/"><i class="ba-social__icon ion-social-instagram float-md-left"></i></a></li>
+              				<li><a href="https://www.facebook.com/xpuctihu"><i class="ba-social__icon ion-social-facebook float-md-left"></i></a></li>
+             				<li><a href="https://github.com/XpucTiHu"><i class="ba-social__icon ion-social-github float-md-left"></i></a></li>
+              				<li><a href="https://www.upwork.com/o/profiles/users/_~01d232844d0b188820/"><i class="ba-social__icon ion-code float-md-left"></i></a></li>
             			</ul>
 					</div>
 				</div>
@@ -267,6 +285,10 @@
 
 		</div>
 	</footer>
+
+	<!-- Go to top button -->
+	<button type="button" name="top" id="myBtn"><a href="#" class="scroll" data-scroll><img src="img/up.png" alt="Go to top"></a></button>
+
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jquery + smooth scroll -->
 	<script src="js/bootstrap.min.js"></script> <!-- bootstrap -->
